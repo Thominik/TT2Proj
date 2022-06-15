@@ -11,17 +11,17 @@ public class AppIdentityDbContextSeed
         {
             var user = new AppUser
             {
-                DisplayName = "Bob",
-                Email = "bob@test.com",
-                UserName = "bob@test.com",
+                DisplayName = "Dominik",
+                Email = "dominik@dealer.com",
+                UserName = "dominik@dealer.com",
                 Address = new Address
                 {
-                    FirstName = "Bob",
-                    LastName = "Bobbity",
-                    Street = "10 The Street",
-                    City = "New York",
-                    State = "NY",
-                    ZipCode = "90210"
+                    FirstName = "Dominik",
+                    LastName = "Bednarz",
+                    Street = "Lwowska 12",
+                    City = "Rzeszów",
+                    State = "podkarpackie",
+                    ZipCode = "35-505"
                 }
             };
 
