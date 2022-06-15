@@ -1,0 +1,20 @@
+<div class="bg-light px-4 py-3 text-uppercase font-weight-bold">
+  Podsumowanie zamówienia
+</div>
+<div class="p-4">
+  <p class="font-italic mb-4">Koszty dostawy będą doliczone po wyborze konkretnego wariantu dostawy</p>
+  <ul class="list-unstyled mb-4" *ngIf="(basketTotals$ | async)">
+    <li class="d-flex justify-content-between py-3 border-bottom">
+      <strong class="text-muted">Łącznie w koszyku</strong>
+      <strong>{{(basketTotals$ | async).subtotal | currency}}</strong>
+    </li>
+    <li class="d-flex justify-content-between py-3 border-bottom">
+      <strong class="text-muted">Wysyłka i odbiór</strong>
+      <strong>{{(basketTotals$ | async).shipping | currency}}</strong>
+    </li>
+    <li class="d-flex justify-content-between py-3 border-bottom">
+      <strong class="text-muted">Całość</strong>
+      <strong>{{(basketTotals$ | async).total | currency}}</strong>
+    </li>
+  </ul>
+</div>
