@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "ShortName": "DHL - pobranie - laweta",
+    "Description": "DHL przewodzi wszystko",
+    "DeliveryTime": "1-2 dni",
+    "Price": 10
+  },
+  {
+    "Id": 2,
+    "ShortName": "FedEx - pobranie - laweta",
+    "Description": "Dłuższa dostawa z ubezpieczeniem",
+    "DeliveryTime": "2-3 dni",
+    "Price": 5
+  },
+  {
+    "Id": 3,
+    "ShortName": "UPS - pobranie - laweta",
+    "Description": "Dłuższa dosatawa z gwarancją zwrotu pieniędzy",
+    "DeliveryTime": "2-3 dni",
+    "Price": 2
+  },
+  {
+    "Id": 4,
+    "ShortName": "Odbiór osobosty",
+    "Description": "Zapraszamy do naszego salonu przy ulicy Lwowskiej 12",
+    "DeliveryTime": "natychmiast",
+    "Price": 0
+  }
+]
